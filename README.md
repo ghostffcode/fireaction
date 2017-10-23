@@ -37,7 +37,7 @@ const fireaction = new Fireaction(ref)
 
 // copy from one path to the other
 // async with either callback
-fireaction.copy(src, dest, callback)
+fireaction.copy(src, dest, function (err, data) {/*  */})
 // or promise
 fireaction.copy(src, dest)
 	.then(function (sourceData) {/* ... */})
