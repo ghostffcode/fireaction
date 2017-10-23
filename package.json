@@ -1,0 +1,52 @@
+{
+  "name": "fireaction",
+  "version": "0.9.0",
+  "description": "Easy copy and move actions within a firebase database",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test",
+    "dist": "dist"
+  },
+  "scripts": {
+    "start": "npm run test && npm run build",
+    "unit": "mocha --require babel-register",
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghostffcode/fireaction.git"
+  },
+  "keywords": [
+    "firebase",
+    "actions",
+    "copy",
+    "move",
+    "json",
+    "read",
+    "write"
+  ],
+  "author": "Chimeremeze Ukah <meremezeukah@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghostffcode/fireaction/issues"
+  },
+  "homepage": "https://github.com/ghostffcode/fireaction#readme",
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "firebase": "^4.6.0",
+    "firebase-server": "^0.11.0",
+    "mocha": "^4.0.1",
+    "standard": "^10.0.3",
+    "webpack": "^3.8.1"
+  },
+  "standard": {
+    "ignore": [
+      "dist"
+    ]
+  }
+}
