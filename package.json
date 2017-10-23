@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "npm run test && npm run build",
-    "unit": "mocha --require babel-register",
+    "unit": "mocha --require babel-register --exit",
     "lint": "standard",
     "test": "npm run lint && npm run unit",
     "build": "webpack"
