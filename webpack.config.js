@@ -15,7 +15,7 @@ const config = {
       comments: false,
       sourceMap: true,
       minimize: false
-    }),
+    })
   ]
 }
 
