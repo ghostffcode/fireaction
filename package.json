@@ -1,6 +1,6 @@
 {
   "name": "fireaction",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy copy and move actions within a firebase database",
   "main": "lib/index.js",
   "directories": {
