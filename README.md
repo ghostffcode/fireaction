@@ -1,7 +1,8 @@
 fireaction
 ========
 Easy copy and move actions within a firebase database
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://travis-ci.org/ghostffcode/fireaction.svg?branch=master)](https://travis-ci.org/ghostffcode/fireaction)
 
 Why?
 -------
