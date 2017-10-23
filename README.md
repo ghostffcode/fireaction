@@ -52,7 +52,7 @@ const options = { withKey: true }
 fireaction(src, dest, options, callback)
 ```
 | Option | Type (default) | Description |
-| --- | --- |
+| --- | --- | -- |
 | withKey | boolean (**true**) | Copies parent key with value into destination path |
 | override | boolean (**false**) | Overrides existing data in destination path |
 
